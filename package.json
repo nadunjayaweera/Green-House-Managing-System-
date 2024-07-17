@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node.js backend with MongoDB, JWT authentication, and user roles",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "jwt",
+    "authentication",
+    "user roles"
+  ],
+  "author": "Nadun Jayaweera",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment-timezone": "^0.5.45",
+    "mongoose": "^6.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "private": true
+}
